@@ -45,3 +45,5 @@ clock = Observable.new("clock")
 linda.observe(clock)
 franco.observe(clock)
 clock.update("ding dong")
+# =>linda observed ding dong at 2014-09-01 20:59:34 -0400
+# =>franco observed ding dong at 2014-09-01 20:59:34 -0400
